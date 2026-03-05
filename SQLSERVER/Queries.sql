@@ -178,3 +178,30 @@ SELECT * FROM Employee as emp RIGHT JOIN Departments as d on emp.deptId=d.deptId
 
 --FULL OUTER JOIN
 SELECT emp.*, d.DName FROM Employee as emp FULL OUTER JOIN Departments as d on emp.deptId=d.deptId;
+
+-- 5-Mar-26
+
+use "2502G1";
+
+SELECT * FROM Employee;
+
+CREATE VIEW [empDetails]
+AS
+SELECT empName, designation, city from Employee;
+
+SELECT * FROM empDetails;
+
+SELECT * FROM Departments;
+
+CREATE VIEW [deptName]
+AS
+SELECT DName from Departments;
+
+SELECT * FROM deptName;
+
+CREATE VIEW [empWithDeptNames]
+AS
+SELECT emp.empName, emp.designation, d.DName FROM Employee as emp INNER JOIN 
+Departments as d on emp.deptId=d.deptId;
+
+SELECT * FROM empWithDeptNames;
