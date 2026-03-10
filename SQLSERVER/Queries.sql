@@ -205,3 +205,21 @@ SELECT emp.empName, emp.designation, d.DName FROM Employee as emp INNER JOIN
 Departments as d on emp.deptId=d.deptId;
 
 SELECT * FROM empWithDeptNames;
+
+-- DCL: DATA CONTROL LANGUAGE
+
+SELECT * FROM sys.sql_logins;
+
+DROP LOGIN HR_EMP;
+
+CREATE LOGIN HR_EMP with Password='555';
+CREATE USER HR_EMP FROM LOGIN HR_EMP;
+
+-- GRANT(Ijazat dena)
+GRANT SELECT on dbo.Employee TO HR_EMP;
+
+GRANT INSERT on dbo.Employee TO HR_EMP;
+
+GRANT DELETE, UPDATE on dbo.Employee TO HR_EMP;
+
+REVOKE DELETE on dbo.Employee TO HR_EMP;
