@@ -223,3 +223,83 @@ GRANT INSERT on dbo.Employee TO HR_EMP;
 GRANT DELETE, UPDATE on dbo.Employee TO HR_EMP;
 
 REVOKE DELETE on dbo.Employee TO HR_EMP;
+
+-- PROCEDURES
+
+CREATE PROCEDURE SeeEmp
+AS
+BEGIN
+SELECT * FROM Employee
+END;
+
+SeeEmp;
+
+
+ALTER PROCEDURE SeeEmp
+AS
+BEGIN
+SELECT * FROM Employee where city = 'KHI'; 
+END;
+
+SeeEmp;
+
+CREATE PROCEDURE AddEmp @Name varchar(255), @desig varchar(70), @sal int, @city varchar(60), @dId int
+AS
+BEGIN
+INSERT INTO Employee VALUES(@Name, @desig, @sal, @city, @dId)
+SELECT * FROM Employee
+END;
+
+AddEmp @Name='Haseeb', @desig='Software Developer', @sal=50000, @city='Karachi', @dId=2;
+
+AddEmp @Name='Ali Zaib', @desig='MERN Developer', @sal=250000, @city='Karachi', @dId=3;
+
+DROP PROCEDURE SeeEmp;
+
+SeeEmp;
+
+DELETE FROM Employee where id = 16;
+
+-- indexes 
+
+create index empname_index
+On Employee(empName,salary);
+
+select * from Employees where empName='Owais';
+
+drop index employee.empname_index;
+
+-- Triggers
+
+ -- for
+ CREATE TRIGGER AddEmp_trigger 
+ On Employee
+ for INSERT
+ as
+ BEGIN
+ print('a new employee added successfully.')
+ END;
+
+ INSERT INTO Employee(empName,designation,salary,city,deptId) VALUES
+('Taha ','Mob developer', 58788, 'swat',1);
+
+
+ -- alter
+ ALTER TRIGGER AddEmp_trigger 
+ On Employee
+ for INSERT
+ as
+ BEGIN
+SELECT * FROM inserted;
+ END;
+
+ --Creating audit table
+ CREATE TABLE EmpLogs(
+ logid int Primary key identity(1,1),
+ ActionPerformed nvarchar(255)
+ );
+ SELECT * FROM EmpLogs;
+
+
+ SELECT * into Test from Employees;
+ SELECT * From Test;
