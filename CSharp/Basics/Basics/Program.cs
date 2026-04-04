@@ -228,27 +228,158 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 
 //Console.WriteLine(Scores[4]);
 
-string[] cars = ["Civic", "Carolla", "BMW", "Boss", "Sportage", "BMW", "Liana"];
-//Console.WriteLine(cars[0]);
-//Array.Sort(cars);
-//Array.Reverse(cars);
+//string[] cars = ["Civic", "Carolla", "BMW", "Boss", "Sportage", "BMW", "Liana"];
+////Console.WriteLine(cars[0]);
+////Array.Sort(cars);
+////Array.Reverse(cars);
 
-foreach (var car in cars)
+//foreach (var car in cars)
+//{
+//    Console.WriteLine(car);
+//}
+
+////Console.WriteLine(Array.IndexOf(cars, "BMW"));
+////Console.WriteLine(Array.LastIndexOf(cars, "BMW"));
+
+////MultiDimentional Array
+
+//int[,] oldNewPrice =
+//{
+//    {80, 150 },
+//    {180, 250 },
+//    {800, 950 },
+//    {950, 1000 },
+//    {1380, 1500 },
+//};
+
+
+//Console.WriteLine(oldNewPrice[3,0]);
+
+//for(int i = 0; i < oldNewPrice.GetLength(0); i++)
+//{
+//    for(int j = 0;  j < oldNewPrice.GetLength(1); j++)
+//    {
+//        Console.WriteLine(oldNewPrice[i, j]);
+//    }
+//}
+
+//Jagged  Array: Size of sub array is not fixed
+
+//string[][] skillSet =
+//{
+//    new string[3] {"HTML", "CSS", "JS"},
+//    new string[4] {"Wordpress", "MySQL", "PHP", "Laravel"},
+//    new string[2] {"SQL SERVER", "DotNET"},
+//    new string[4] {"MongoDB", "React", "ExpressJS", "FSA"},
+//    new string[2] {"DART", "Flutter"},
+//};
+
+//Console.WriteLine(skillSet[1][2]);
+
+//for(int i = 0;  i < skillSet.Length; i++)
+//{
+//    for(int j = 0;  j < skillSet[i].Length; j++)
+//    {
+//        Console.WriteLine(skillSet[i][j]);
+//    }
+//}
+
+//foreach (var skill in skillSet)
+//{
+//    foreach (var skills in skill)
+//    {
+//        Console.WriteLine(skills);
+//    }
+//}
+
+//Functions
+//syntax returntype funcName() {body}
+
+// No return no parameter
+
+//void Greet()
+//{
+//    Console.WriteLine("Good Evening!");
+//}
+
+//calling
+//Greet();
+//Greet();
+//Greet();
+//Greet();
+
+
+// No return with parameter
+
+//void Greet(string name)
+//{
+//    Console.WriteLine($"{name} Good Evening!");
+//}
+
+////calling
+//Greet("Usama");
+//Greet("Haris");
+
+//// Return with No Parameter
+
+//string Greet()
+//{
+//    return "HI, welcome to Aptech North Nazimabad!";
+//}
+////Greet();
+//Console.WriteLine(Greet());
+
+//string messg = Greet();
+//Console.WriteLine($"Greet {messg.ToUpper()}");
+
+//float stdWeight()
+//{
+//    return 67.55F;
+//}
+
+//Console.WriteLine(stdWeight());
+
+
+//RETURN WITH PARAMETER
+
+//string empDetails(string empName, int salary)
+//{
+//    return ($"Employee name is {empName} & salary is {salary}");
+//}
+
+
+//string messg = empDetails("Taha", 42000);
+//Console.WriteLine(messg);
+
+//Data Structures
+//Generic Collections
+//LIST, STACK, QUEUE, DICTIONARY
+
+//using System.Collections;
+//using System.Linq;
+
+List<string> Cars = new List<string>();
+
+Cars.Add("Boss");
+Cars.Add("MG");
+Cars.Add("BMW");
+Cars.Add("Haval");
+
+Console.WriteLine(Cars[0]);
+//Console.WriteLine(Cars[1]);
+//Console.WriteLine(Cars[2]);
+//Console.WriteLine(Cars[3]);
+
+Console.WriteLine(Cars.Contains("Boss")); // T/F
+
+Cars.Insert(1, "Revo");
+
+Console.WriteLine(Cars[1]);
+
+foreach (var car in Cars)
 {
     Console.WriteLine(car);
 }
-
-//Console.WriteLine(Array.IndexOf(cars, "BMW"));
-Console.WriteLine(Array.LastIndexOf(cars, "BMW"));
-
-//MultiDimentional Array
-
-
-
-
-
-
-
 
 
 
