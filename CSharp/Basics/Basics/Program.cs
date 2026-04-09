@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+using System.Collections;
+using System.Runtime.Versioning;
+
 string Victory = "Iran";
 string Defeat = "USA";
 
@@ -434,26 +437,127 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 //    Console.WriteLine(item);
 //}
 //Generic Collection
-Dictionary<string, string> empDetails = new Dictionary<string, string>();
+//Dictionary<string, string> empDetails = new Dictionary<string, string>();
 
-empDetails.Add("empName", "Hassaan");
-empDetails.Add("empDesignation", "Softwarea Developer");
-empDetails.Add("empAddress", "North Nazimabad");
-empDetails.Add("empEmail", "hassan@gmail");
-//empDetails.Add("empValid", true);
+//empDetails.Add("empName", "Hassaan");
+//empDetails.Add("empDesignation", "Softwarea Developer");
+//empDetails.Add("empAddress", "North Nazimabad");
+//empDetails.Add("empEmail", "hassan@gmail");
+////empDetails.Add("empValid", true);
 
-//Console.WriteLine(empDetails["empName"]);
+////Console.WriteLine(empDetails["empName"]);
 
-foreach (var item in empDetails)
+//foreach (var item in empDetails)
+//{
+//    string[] test = (item.ToString()).Split(',');
+//    string key = test[0].Trim('[');
+//    string value = test[1].Trim(']');
+//    //Console.WriteLine(key);
+//    //Console.WriteLine(value);
+//    Console.WriteLine($"Key is {key} value is {value}");
+//    //Console.WriteLine(test);
+//}
+
+//Dictionary<string, int> prodPrice = new Dictionary<string, int>();
+//prodPrice.Add("Samsung A32", 32000);
+//prodPrice.Add("Google Pixel 7A", 52000);
+//prodPrice.Add("Infinix Hot 8 Lite", 7000);
+//prodPrice.Add("Techno Spark G30", 52000);
+
+
+//foreach (var item in prodPrice)
+//{
+//    string[] test = (item.ToString()).Split(',');
+//    string key = test[0].Trim('[');
+//    string value = test[1].Trim(']');
+//    //Console.WriteLine(key);
+//    //Console.WriteLine(value);
+//    Console.WriteLine($"Mob is {key} price is {value}");
+//    //Console.WriteLine(test);
+//}
+
+////HashTables (Non-Generic Collection No Fixed dataType)
+//Hashtable cars = new Hashtable();
+//cars.Add("carName", "Accord CL7");
+//cars.Add("carBrand", "Honda");
+//cars.Add("carPrice", 2700000);
+//cars.Add("Sedan", true);
+//cars.Add("carImg", "accord.jpg");
+
+//Console.WriteLine(cars.Contains("carImg"));
+//Console.WriteLine(cars["carImg"]);
+//Console.WriteLine(cars.ContainsValue(2700000));
+
+//foreach (DictionaryEntry item in cars)
+//{
+//    Console.WriteLine(item.Key + ": " + item.Value);
+//}
+
+//ArrayList(Non Generic Collection & No Fix DT)
+
+//ArrayList arrayList = new ArrayList();
+//arrayList.Add("Trees");
+//arrayList.Add(32);
+//arrayList.Add(11.2f);
+//arrayList.Add(false);
+
+//arrayList.RemoveRange(0, 2);
+////arrayList.RemoveAt(0);
+////arrayList.Remove(32);
+
+//foreach (var item in arrayList)
+//{
+//    Console.WriteLine(item);
+//}
+
+string test = "we are learning \"C#\"";
+Console.WriteLine(test.Replace("learning", "Mastering"));
+Console.WriteLine(test.Replace("C#", "DOTNET"));
+//-------------------------- DS End -----------------------------------------
+//What is OOP?
+//Best Practices
+//Indentation(code readable using spaces new lines)
+//meaninful idenfiers (variables name)
+//less repeatation
+//error(exceptional handling)
+
+//OOP(Object Oriented Programming)
+//Object & Classes
+Car accord = new Car("Accord CL7", "Honda best product", 270000);
+accord.carStarts();
+
+public class Car
 {
-    string[] test = (item.ToString()).Split(',');
-    string key = test[0].Trim('[');
-    string value = test[1].Trim(']');
-    //Console.WriteLine(key);
-    //Console.WriteLine(value);
-    Console.WriteLine($"Key is {key} value is {value}");
-    //Console.WriteLine(test);
+    // properties
+    public string? carName;
+    public string? carDesc;
+    public int carPrice;
+
+
+
+    //constructors
+    public Car(string carName, string carDesc, int carPrice) {
+        this.carName = carName;
+        this.carDesc = carDesc;
+        this.carPrice = carPrice;
+    }
+
+    //methods
+    public void carStarts()
+    {
+        Console.WriteLine(carName + "start...!");
+    }
+    public void carStops()
+    {
+        Console.WriteLine(carName + "stop...!");
+    }
 }
+
+
+
+
+
+
 
 
 
