@@ -358,37 +358,102 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 //using System.Collections;
 //using System.Linq;
 
-List<string> Cars = new List<string>();
 
-Cars.Add("Boss");
-Cars.Add("MG");
-Cars.Add("BMW");
-Cars.Add("Haval");
+//List<string> SuperCars = new List<string>();
 
-Console.WriteLine(Cars[0]);
+//SuperCars.Add("Supra");
+//SuperCars.Add("Bugatti");
+//SuperCars.Add("Ferarri");
+//SuperCars.Add("Rx8");
+
+
+//List<string> Cars = new List<string>();
+
+//Cars.Add("Boss");
+//Cars.Add("MG");
+//Cars.Add("BMW");
+//Cars.Add("Haval");
+//Cars.Add("Accord");
+//Cars.Add("Civic");
+
+//Console.WriteLine(Cars[0]);
+////Console.WriteLine(Cars[1]);
+////Console.WriteLine(Cars[2]);
+////Console.WriteLine(Cars[3]);
+
+//Console.WriteLine(Cars.Contains("Boss")); // T/F
+
+//Cars.Insert(1, "Revo");
+
 //Console.WriteLine(Cars[1]);
-//Console.WriteLine(Cars[2]);
-//Console.WriteLine(Cars[3]);
 
-Console.WriteLine(Cars.Contains("Boss")); // T/F
+//Cars.AddRange(SuperCars);
+//Cars.RemoveRange(2, 5);
 
-Cars.Insert(1, "Revo");
 
-Console.WriteLine(Cars[1]);
+//foreach (var car in Cars)
+//{
+//    Console.WriteLine(car);
+//}
 
-foreach (var car in Cars)
+//Queue (FIFO: First In First Out)
+//Enqueue = Add
+//Dequee = Remove
+
+//Queue<string> empName = new Queue<string>();
+
+//empName.Enqueue("Hassan");
+//empName.Enqueue("Anas");
+//empName.Enqueue("Haris");
+//empName.Enqueue("Qadir");
+//empName.Enqueue("Hamza");
+
+//empName.Dequeue(); //Hassaan
+//empName.Dequeue(); //Anas
+
+//foreach (var item in empName)
+//{
+//    Console.WriteLine(item);
+//}
+
+////Stack(LIFO: Last In First Out)
+
+//Stack<string> fruits = new Stack<string>();
+//fruits.Push("Apple");
+//fruits.Push("Grapes");
+//fruits.Push("Mango");
+//fruits.Push("Banana");
+//fruits.Push("Kiwi");
+
+
+//fruits.Pop();
+//fruits.Pop();
+
+//foreach (var item in fruits)
+//{
+//    Console.WriteLine(item);
+//}
+//Generic Collection
+Dictionary<string, string> empDetails = new Dictionary<string, string>();
+
+empDetails.Add("empName", "Hassaan");
+empDetails.Add("empDesignation", "Softwarea Developer");
+empDetails.Add("empAddress", "North Nazimabad");
+empDetails.Add("empEmail", "hassan@gmail");
+//empDetails.Add("empValid", true);
+
+//Console.WriteLine(empDetails["empName"]);
+
+foreach (var item in empDetails)
 {
-    Console.WriteLine(car);
+    string[] test = (item.ToString()).Split(',');
+    string key = test[0].Trim('[');
+    string value = test[1].Trim(']');
+    //Console.WriteLine(key);
+    //Console.WriteLine(value);
+    Console.WriteLine($"Key is {key} value is {value}");
+    //Console.WriteLine(test);
 }
-
-
-
-
-
-
-
-
-
 
 
 
