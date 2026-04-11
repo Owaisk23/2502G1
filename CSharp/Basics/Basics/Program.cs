@@ -553,6 +553,101 @@ public class Car
     }
 }
 
+//OOP
+//Objects and Classes
+//OOP (OBJECT ORIENTED PROGRAMMING)
+//it is an approach to code cleaner and better.
+//readable
+//reusable
+//optimize
+//proper structure of the code is maintained.
+
+//Main Pillars of OOP
+
+//1. Interitance
+// i . Single level inheritance  Vehicle -> Car
+// ii . Multi level inheritance  Vehicle -> Car -> Ecar
+// iii. Heirarchical inheritance Vehicle ->Car , Vehicle-> Bike
+// iv. Multiple inheritance  
+// v. Hybrid inheritance    Vehicle -> CAR , Vehicle -> Car -> Ecar, Car-> Ecar
+
+//2. Polymorphism(Poly: Many, morphism: forms)
+// Method Overloading
+// Method Overriding
+
+//3. Abstraction
+//4. Encapsulation
+
+
+//Aeroplane Boeing707 = new Aeroplane();//default constructor
+
+
+//Boeing707.Name = "Boeing 707";
+//Boeing707.takeOff();
+//Console.WriteLine(Boeing707.AirLine);
+
+Aeroplane f16 = new Aeroplane("PAF");
+f16.takeOff();
+
+//Aeroplane f17 = new Aeroplane("PAF", "F-17 Thunder", 2, 2, "8500hp");
+//f17.takeOff();
+//f17.land();
+
+//class ClassNamae{
+//default constructor
+//parametrized constructor
+//methods
+//}
+
+
+public class Aeroplane
+{
+    //access modifiers: public: access from anywhere, private: access within the class, protected: access within the class + child classes
+    public string? AirLine;
+    public string? Name;
+    public int Seats;
+    public int Crew;
+    public string? Power;
+
+    //Contstructor
+    public Aeroplane()
+    {
+        this.AirLine = "Not specified";
+        this.Name = "unknown";
+        this.Seats = 0;
+        this.Crew = 0;
+        this.Power = null;
+    }
+
+    public Aeroplane(string AirLine)
+    {
+        this.AirLine = AirLine;
+        this.Name = "unknown";
+        this.Seats = 0;
+        this.Crew = 0;
+        this.Power = null;
+    }
+
+
+    //    //Paremeterized constructor (Overloading)
+    public Aeroplane(string ALine, string name, int seat, int crew, string pow)
+    {
+        this.AirLine = ALine;
+        this.Name = name;
+        this.Seats = seat;
+        this.Crew = crew;
+        this.Power = pow;
+    }
+    public void takeOff()
+    {
+        Console.WriteLine($"{this.Name} is taking off. Best Wishes..!");
+    }
+    public void land()
+    {
+        Console.WriteLine($"{this.Name} is Landing at the 4th runway..! ");
+    }
+
+}
 
 
 
