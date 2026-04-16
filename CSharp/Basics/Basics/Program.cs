@@ -2,6 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 using System.Collections;
+using System.Net.NetworkInformation;
 using System.Runtime.Versioning;
 
 string Victory = "Iran";
@@ -711,10 +712,97 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 
 //}
 
+////Interfaces
+//FrontEndDeveloper ashar = new FrontEndDeveloper();
+//ashar.ComplexDesign("Ashar Ahmed");
+//ashar.SimpleDesign();
+
+//FullStackDeveloper usama = new FullStackDeveloper();
+//usama.SimpleDesign();
+//usama.ComplexAPIs();
+
+//interface topics
+//{
+
+//Interfaces,
+//        Static,
+//       Abstract
+////} 
+interface FrontEndDevelopment
+{
+    public void SimpleDesign();
+    public void ComplexDesign(string name);
+
+}
+
+
+interface BackEndDevelopment
+{
+    public void SimpleCrud();
+    public void ComplexAPIs();
+    public void Authentication();
+
+}
+
+public class FrontEndDeveloper : FrontEndDevelopment
+{
+    //method implementation
+    public void SimpleDesign()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexDesign(string name)
+    {
+        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
+            $"Nextjs.");
+    }
+
+}
+public class BackendDeveloper : BackEndDevelopment
+{
+    //method implementation
+    public void SimpleCrud()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexAPIs()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void Authentication()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+
+
+}
 
 
 
-
+////Multiple Inheritance
+public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
+{
+    public void SimpleDesign()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexDesign(string name)
+    {
+        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
+    }
+    public void SimpleCrud()
+    {
+        Console.WriteLine("We will provide you simple crud operations.");
+    }
+    public void ComplexAPIs()
+    {
+        Console.WriteLine($"We will provide you complex APIs.");
+    }
+    public void Authentication()
+    {
+        Console.WriteLine($" We will provide you Authentication.");
+    }
+}
 
 
 
