@@ -4,6 +4,7 @@
 using System.Collections;
 using System.Net.NetworkInformation;
 using System.Runtime.Versioning;
+using System.Xml.Serialization;
 
 string Victory = "Iran";
 string Defeat = "USA";
@@ -728,81 +729,174 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 //        Static,
 //       Abstract
 ////} 
-interface FrontEndDevelopment
-{
-    public void SimpleDesign();
-    public void ComplexDesign(string name);
+//interface FrontEndDevelopment
+//{
+//    public void SimpleDesign();
+//    public void ComplexDesign(string name);
 
+//}
+
+
+//interface BackEndDevelopment
+//{
+//    public void SimpleCrud();
+//    public void ComplexAPIs();
+//    public void Authentication();
+
+//}
+
+//public class FrontEndDeveloper : FrontEndDevelopment
+//{
+//    //method implementation
+//    public void SimpleDesign()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexDesign(string name)
+//    {
+//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
+//            $"Nextjs.");
+//    }
+
+//}
+//public class BackendDeveloper : BackEndDevelopment
+//{
+//    //method implementation
+//    public void SimpleCrud()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexAPIs()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void Authentication()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+
+
+//}
+
+
+
+//////Multiple Inheritance
+//public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
+//{
+//    public void SimpleDesign()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexDesign(string name)
+//    {
+//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
+//    }
+//    public void SimpleCrud()
+//    {
+//        Console.WriteLine("We will provide you simple crud operations.");
+//    }
+//    public void ComplexAPIs()
+//    {
+//        Console.WriteLine($"We will provide you complex APIs.");
+//    }
+//    public void Authentication()
+//    {
+//        Console.WriteLine($" We will provide you Authentication.");
+//    }
+//}
+
+
+//Delegates
+//Normal Delegates
+//MyMaths.MyMathDelegate Eval = new MyMaths.MyMathDelegate(MyMaths.Add);
+//Eval(12, 15);// 27
+
+////Multicast Delegates
+
+//MyMaths.MyMathDelegate MultiEval;
+
+//MultiEval = MyMaths.Mul;
+//MultiEval(5, 5); // 25
+
+//MultiEval = MyMaths.Sub;
+//MultiEval(15, 5); // 10
+
+//MultiEval = MyMaths.Div;
+//MultiEval(5, 5); //1
+
+
+
+//public class MyMaths
+//{
+//    public delegate void MyMathDelegate(double num1, double num2);
+
+//    public static void Add(double a, double b)
+//    {
+//        Console.WriteLine(a + b);
+//    }
+
+//    public static void Sub(double a, double b)
+//    {
+//        Console.WriteLine(a - b);
+//    }
+//    public static void Mul(double a, double b)
+//    {
+//        Console.WriteLine(a * b);
+//    }
+//    public static void Div(double a, double b)
+//    {
+//        if( b != 0)
+//        {
+//            Console.WriteLine(a / b);
+//        }
+//        else
+//        {
+//            Console.WriteLine("Can't divide by zero");
+//        }
+//    }
+//}
+
+
+shopping.GetItems buy;
+buy = shopping.GetEatables;
+buy("Jam", 720, "Black current ja with delight");
+
+public class shopping
+{
+    public delegate void GetItems(string name, int price, string description);
+
+    public static void GetEatables(string name, int price, string desc)
+    {
+        Console.WriteLine("You have bought eatables {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+    }
+
+    public static void GetGadgets(string name, int price, string desc)
+    {
+        Console.WriteLine("You have bought gadets {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+    }
 }
 
 
-interface BackEndDevelopment
-{
-    public void SimpleCrud();
-    public void ComplexAPIs();
-    public void Authentication();
-
-}
-
-public class FrontEndDeveloper : FrontEndDevelopment
-{
-    //method implementation
-    public void SimpleDesign()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void ComplexDesign(string name)
-    {
-        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
-            $"Nextjs.");
-    }
-
-}
-public class BackendDeveloper : BackEndDevelopment
-{
-    //method implementation
-    public void SimpleCrud()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void ComplexAPIs()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void Authentication()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-
-
-}
 
 
 
-////Multiple Inheritance
-public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
-{
-    public void SimpleDesign()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void ComplexDesign(string name)
-    {
-        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
-    }
-    public void SimpleCrud()
-    {
-        Console.WriteLine("We will provide you simple crud operations.");
-    }
-    public void ComplexAPIs()
-    {
-        Console.WriteLine($"We will provide you complex APIs.");
-    }
-    public void Authentication()
-    {
-        Console.WriteLine($" We will provide you Authentication.");
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
