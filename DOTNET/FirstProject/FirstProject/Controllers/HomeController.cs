@@ -17,6 +17,14 @@ namespace FirstProject.Controllers
         {
             return View();
         }
+        
+        public IActionResult About()
+        {
+            ViewData["name"] = "Owais Ahmed Khan";
+            ViewData["designation"] = "Senior Manager Academics";
+            ViewBag.city = "KArachi";
+            return View();
+        }
 
         public IActionResult Privacy()
         {

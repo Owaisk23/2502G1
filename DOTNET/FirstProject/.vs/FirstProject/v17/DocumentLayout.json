@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|z:\\desktop\\2502g1\\dotnet\\firstproject\\firstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|solutionrelative:firstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|z:\\desktop\\2502g1\\dotnet\\firstproject\\firstproject\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|solutionrelative:firstproject\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|z:\\desktop\\2502g1\\dotnet\\firstproject\\firstproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|solutionrelative:firstproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|z:\\desktop\\2502g1\\dotnet\\firstproject\\firstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|solutionrelative:firstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|z:\\desktop\\2502g1\\dotnet\\firstproject\\firstproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DB88191-EFE1-4409-91D3-37DD76347537}|FirstProject\\FirstProject.csproj|solutionrelative:firstproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +35,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "FirstProject\\Views\\Home\\About.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "FirstProject\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T15:24:40.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FirstProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FirstProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T15:21:56.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FirstProject\\Views\\Home\\Index.cshtml",
               "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "FirstProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-18T15:24:38.242Z",
               "EditorCaption": ""
@@ -45,7 +79,7 @@
               "RelativeDocumentMoniker": "FirstProject\\Controllers\\HomeController.cs",
               "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\FirstProject\\FirstProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FirstProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T15:24:10.255Z",
               "EditorCaption": ""
