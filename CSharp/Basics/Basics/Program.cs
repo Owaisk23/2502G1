@@ -857,27 +857,126 @@ Console.WriteLine(Victory + " Defeated " + Defeat);
 //}
 
 
-shopping.GetItems buy;
-buy = shopping.GetEatables;
-buy("Jam", 720, "Black current ja with delight");
+//shopping.GetItems buy;
+//buy = shopping.GetEatables;
+//buy("Jam", 720, "Black current ja with delight");
 
-public class shopping
+//public class shopping
+//{
+//    public delegate void GetItems(string name, int price, string description);
+
+//    public static void GetEatables(string name, int price, string desc)
+//    {
+//        Console.WriteLine("You have bought eatables {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+//    }
+
+//    public static void GetGadgets(string name, int price, string desc)
+//    {
+//        Console.WriteLine("You have bought gadets {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+//    }
+//}
+
+
+//getters and setters
+
+//Animal cat = new Animal();
+//cat.Name = "Tom";
+//cat.Age = 8;
+//Console.WriteLine(cat.Age);
+
+
+//public class Animal
+//{
+//    public string? Name { get; set; } //auto complete properties
+//    private int age;
+
+
+//    public int Age
+//    {
+//        get { return age; }
+
+//        set
+//        {
+
+//            if (value < 10)
+//            {
+
+//                age = value;
+//            }
+//            else
+//            {
+
+//            }
+//        }
+//    }
+//}
+
+//Records 
+
+//User ahmed = new User();
+//ahmed.id = 1;
+//ahmed.name = "Ahmed Hassan";
+
+
+//User haris = new User();
+//haris.id = 1;
+//haris.name = "Ahmed Hassan";
+
+
+//Console.WriteLine(ahmed);
+//Console.WriteLine(ahmed == haris);
+
+//User1 talha = new User1();
+//talha.id = 2;
+//talha.name = "Mirza talha";
+
+//User1 abdullah = new User1();
+//abdullah.id = 2;
+//abdullah.name = "Mirza talha";
+
+//Console.WriteLine(talha);
+//Console.WriteLine(talha == abdullah);
+
+//public class User
+//{
+//    public int id { get; set; }
+//    public string? name { get; set; }
+//}
+
+//public record User1
+//{
+//    public int id { get; set; }
+//    public string name { get; set; }
+//}
+//events
+
+myCar Civic = new myCar();
+Civic.speedUp += new myCar.speedCar(myCar.carMoved);
+Civic.drive();
+
+public class myCar
 {
-    public delegate void GetItems(string name, int price, string description);
+    public delegate void speedCar();
+    public event speedCar speedUp;
+    public int speed = 0;
 
-    public static void GetEatables(string name, int price, string desc)
+    public void drive()
     {
-        Console.WriteLine("You have bought eatables {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+        for (int i = 1; i < 100; i++)
+        {
+            if (i > 50)
+            {
+                speedUp();
+            }
+            Console.WriteLine($"the car is moving at {i} mph");
+            System.Threading.Thread.Sleep(60000);
+        }
     }
-
-    public static void GetGadgets(string name, int price, string desc)
+    public static void carMoved()
     {
-        Console.WriteLine("You have bought gadets {0} at Rs. {1}. {2}.", name, price, desc);//placeholders
+        Console.WriteLine("the speed limit has exceeded");
     }
 }
-
-
-
 
 
 
