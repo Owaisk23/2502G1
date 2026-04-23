@@ -15,6 +15,8 @@ namespace FirstProject.Controllers
 
         public IActionResult Index()
         {
+            TempData["address"] = "North Nazimabad";
+            TempData.Keep();
             return View();
         }
         
@@ -28,6 +30,7 @@ namespace FirstProject.Controllers
 
         public IActionResult Privacy()
         {
+            TempData.Keep();
             return View();
         }
 
