@@ -13,10 +13,23 @@ namespace FirstProject.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
-            TempData["address"] = "North Nazimabad";
-            TempData.Keep();
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(string email, string pwd)
+        {
+            if(email == "admin@gmail.com" && pwd == "aptech")
+            {
+                return RedirectToAction("Privacy");
+            }
+
+
+            //TempData["address"] = "North Nazimabad";
+            //TempData.Keep();
             return View();
         }
         
