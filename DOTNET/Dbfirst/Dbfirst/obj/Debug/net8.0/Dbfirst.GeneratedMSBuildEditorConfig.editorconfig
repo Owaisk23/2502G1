@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\Desktop\2502G1\DOTNET\Dbfirst\Dbfirst
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/Desktop/2502G1/DOTNET/Dbfirst/Dbfirst/Views/Home/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/Desktop/2502G1/DOTNET/Dbfirst/Dbfirst/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

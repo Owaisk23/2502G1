@@ -17,6 +17,19 @@ namespace Dbfirst.Controllers
             return View(db.Cows.ToList());
         }
 
+        public IActionResult AddProduct()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct(Cow cow)
+        {
+            db.Cows.Add(cow);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Privacy()
         {
             return View();
