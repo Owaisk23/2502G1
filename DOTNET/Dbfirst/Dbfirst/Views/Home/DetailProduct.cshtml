@@ -1,0 +1,37 @@
+﻿@model Dbfirst.Models.Cow
+
+@{
+    ViewData["Title"] = "DetailProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DetailProduct</h1>
+
+<div>
+    <h4>Cow</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CowName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CowName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CowDesc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CowDesc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CowPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CowPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="EditProduct" asp-route-id="@Model?.CowId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
