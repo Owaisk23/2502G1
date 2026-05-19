@@ -1,5 +1,6 @@
 using Dbfirst.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 
 namespace Dbfirst.Controllers
@@ -17,18 +18,55 @@ namespace Dbfirst.Controllers
             return View(db.Cows.ToList());
         }
 
-        public IActionResult AddProduct()
+        //public IActionResult AddProduct()
+        //{
+        //    return View();
+        //}
+
+        //[HttpPost]
+        //public IActionResult AddProduct(Cow cow)
+        //{
+        //    db.Cows.Add(cow);
+        //    db.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
+
+        public IActionResult Create()
         {
+            ViewBag.CatId = new SelectList(db.Categories, "CatId", "CatName");
+
+
             return View();
         }
 
         [HttpPost]
-        public IActionResult AddProduct(Cow cow)
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Cow item, IFormFile file)
         {
-            db.Cows.Add(cow);
+            var imageName = DateTime.Now.ToString("yymmddhhmmss");//24074455454454
+            imageName += Path.GetFileName(file.FileName);//24074455454454apple.png
+
+            string imagepath = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/Uploads");
+            var imagevalue = Path.Combine(imagepath, imageName);
+
+            using (var stream = new FileStream(imagevalue, FileMode.Create))
+            {
+
+                file.CopyTo(stream);
+
+            }
+
+            var dbimage = Path.Combine("/Uploads", imageName);//   /uploads/240715343434apple.png
+            item.CowImage = dbimage;
+
+            db.Cows.Add(item);
             db.SaveChanges();
+
+
+            ViewBag.CatId = new SelectList(db.Categories, "CatId", "CatName");
             return RedirectToAction("Index");
         }
+
 
         public IActionResult EditProduct(int id)
         {
