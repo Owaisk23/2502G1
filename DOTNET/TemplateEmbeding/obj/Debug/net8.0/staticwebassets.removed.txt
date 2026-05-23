@@ -1,0 +1,3 @@
+C:\Users\asp\Desktop\TemplateEmbeding\wwwroot\css\site.css
+C:\Users\asp\Desktop\TemplateEmbeding\wwwroot\favicon.ico
+C:\Users\asp\Desktop\TemplateEmbeding\wwwroot\js\site.js

@@ -1,0 +1,413 @@
+:root {
+  --primary: #4e4bff;
+  --blueMid: #8a7aff;
+  --light: #f5f6ff;
+}
+body {
+  background: #f3f4fb;
+  font-family: "Poppins", Arial;
+}
+.btn {
+  background: var(--light);
+  color: var(--blueMid);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: var(--blueMid);
+  transform: translateY(-2px);
+}
+/*header*/
+.logo-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.main-nav {
+  transition: 0.3s ease;
+  background: transparent;
+}
+
+.main-nav.scrolled {
+  background: var(--blueMid);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.logo-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--light) !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link {
+  color: var(--light) !important;
+  font-weight: 500;
+}
+.brand-logo i {
+  color: var(--light) !important;
+}
+.brand-logo h4 {
+  color: var(--light) !important;
+}
+
+.hero-modern {
+  padding: 120px 0 90px;
+  background: linear-gradient(
+    180deg,
+    #4b3df2 0%,
+    #8a7aff 20%,
+    #bfc4ff 45%,
+    #eef0ff 70%,
+    #ffffff 100%
+  );
+  border-radius: 0 0 35px 35px;
+  color: #fff;
+}
+
+/* TEXT */
+.hero-title {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.hero-desc {
+  margin-top: 10px;
+  max-width: 420px;
+  opacity: 0.9;
+  color: rgb(255, 255, 255);
+}
+
+/* BUTTONS */
+.hero-btn-primary {
+  background: #fff;
+  color: var(--primary);
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.hero-btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+}
+/* IMAGE */
+.hero-img {
+  padding: 10px 18px;
+  position: relative;
+  width: 300px;
+  left: 80px;
+  z-index: 2;
+}
+
+/* RATING BOX */
+.hero-rating {
+  background: var(--blueMid);
+  border-radius: 16px;
+  padding: 10px 18px;
+  width: max-content;
+  margin-top: 12px;
+}
+
+.rating-value {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.rating-text {
+  opacity: 0.9;
+  margin-left: 6px;
+}
+/* Appointment Bar */
+.appointment-bar {
+  background: var(--light);
+  border-radius: 15px;
+  padding: 18px 20px;
+  margin-top: -50px; /* يطلع فوق الهيرو */
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+/* حقول الفورم */
+.form-field {
+  border-radius: 15px;
+  height: 40px;
+}
+
+/* زر الحجز */
+.make-btn {
+  background: var(--blueMid);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+.make-btn:hover {
+  opacity: 0.9;
+  color: var(--blueMid);
+  transform: translateY(-2px);
+}
+/* Features Section */
+.feature-item {
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 42px;
+  color: var(--blueMid);
+  margin-bottom: 6px;
+}
+
+.feature-item h5 {
+  font-weight: 700;
+}
+
+.feature-item p {
+  color: #666;
+}
+/* Stats Section */
+.stats-box {
+  background: linear-gradient(135deg, #6b63ff, #a69eff);
+  padding: 28px 35px;
+  border-radius: 18px;
+  color: #fff;
+  gap: 15px;
+}
+
+.stats-icon {
+  font-size: 36px;
+  color: var(--light);
+  margin-bottom: 8px;
+}
+
+.counter {
+  font-size: 32px;
+  font-weight: 800;
+  color: beige;
+}
+
+.stats-label {
+  color: beige;
+  font-size: 14px;
+}
+
+/* Testimonial Section */
+.testimonial-box {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* الصورة */
+.testimonial-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* اليمين */
+.testimonial-content {
+  padding: 35px;
+  text-align: center;
+}
+
+/* عنوان صغير */
+.tag {
+  color: var(--blueMid);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* رمز الاقتباس */
+.quote-icon {
+  font-size: 32px;
+  color: var(--blueMid);
+  margin: 10px 0;
+}
+
+/* نص الريفيو */
+.testimonial-text {
+  color: #666;
+  font-style: italic;
+  max-width: 420px;
+  margin: auto;
+}
+
+/* الشخص */
+.review-person {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.review-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/*  blog css*/
+.blog-card {
+  border-radius: 18px;
+  padding: 12px;
+  gap: 12px;
+}
+
+.blog-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.blog-content p {
+  color: #666;
+  margin: 6px 0;
+}
+
+.blog-tag {
+  color: var(--blueMid);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.read-link {
+  color: var(--blueMid);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-link:hover {
+  text-decoration: underline;
+}
+.faq-tag {
+  color: var(--blueMid);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  background: #f5f8ff;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #4b3df2;
+  background: #e8ecff;
+}
+
+.accordion-item {
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid #eef1ff;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, #6b63ff, #a69eff);
+  padding: 28px 35px;
+  border-radius: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+/* زر الحجز */
+.cta-btn {
+  background: #ffffff;
+  color: #4b3df2;
+  font-weight: 700;
+  padding: 10px 26px;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+
+.cta-btn:hover {
+  background: var(--blueMid);
+  color: var(--light);
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .cta-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Footer Styles */
+.footer-section {
+  background: #ffffff;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: #4e4bff;
+}
+
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.footer-contact i {
+  color: #4e4bff;
+  margin-right: 6px;
+}
+
+.newsletter-box input {
+  border-radius: 8px;
+}
+
+.newsletter-box button {
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6b63ff, #4b3df2);
+  color: var(--light);
+}
+
+.social-icons i {
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--blueMid);
+}
+
+.social-icons i:hover {
+  color: #4e4bff;
+}
+.logo {
+  color: var(--blueMid) !important;
+}
