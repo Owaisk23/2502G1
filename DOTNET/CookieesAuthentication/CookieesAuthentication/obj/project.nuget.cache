@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rv7KQ6QNeGo=",
+  "dgSpecHash": "loxQpskvjNk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
+  "projectFilePath": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owaisahmed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\owaisahmed\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

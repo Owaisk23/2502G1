@@ -1,18 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\",
+  "WorkspaceRootPath": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|c:\\users\\owaisahmed\\source\\repos\\cookieesauthentication\\cookieesauthentication\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|c:\\users\\owaisahmed\\source\\repos\\cookieesauthentication\\cookieesauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|c:\\users\\owaisahmed\\source\\repos\\cookieesauthentication\\cookieesauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|z:\\desktop\\2502g1\\dotnet\\cookieesauthentication\\cookieesauthentication\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88264C1C-5580-4CC4-8460-D468C7750FBC}|CookieesAuthentication\\CookieesAuthentication.csproj|solutionrelative:cookieesauthentication\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./user/sa/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +49,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CookieesAuthentication\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CookieesAuthentication\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-09T14:55:54.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CookieesAuthentication\\Controllers\\AdminController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CookieesAuthentication\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T14:55:13.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "CookieesAuthentication\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Login.cshtml*",
+              "RelativeToolTip": "CookieesAuthentication\\Views\\Auth\\Login.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-09T14:52:40.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./user/sa/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-09T14:48:43.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CookieesAuthentication\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CookieesAuthentication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T15:15:50.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Signup.cshtml",
-              "DocumentMoniker": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
               "RelativeDocumentMoniker": "CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
-              "ToolTip": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
               "RelativeToolTip": "CookieesAuthentication\\Views\\Auth\\Signup.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-04T15:14:44.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Program.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Program.cs",
               "RelativeDocumentMoniker": "CookieesAuthentication\\Program.cs",
-              "ToolTip": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Program.cs",
-              "RelativeToolTip": "CookieesAuthentication\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Program.cs*",
+              "RelativeToolTip": "CookieesAuthentication\\Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T15:11:16.129Z",
               "EditorCaption": ""
@@ -58,11 +139,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CookieesAuthentication\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AuthController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CookieesAuthentication\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAASwFcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T15:10:44.509Z",
               "EditorCaption": ""

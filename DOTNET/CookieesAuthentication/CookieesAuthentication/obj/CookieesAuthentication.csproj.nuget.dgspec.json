@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj": {}
+    "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj": {
+    "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
+        "projectUniqueName": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
         "projectName": "CookieesAuthentication",
-        "projectPath": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
+        "projectPath": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\CookieesAuthentication.csproj",
         "packagesPath": "C:\\Users\\owaisahmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owaisahmed\\source\\repos\\CookieesAuthentication\\CookieesAuthentication\\obj\\",
+        "outputPath": "Z:\\Desktop\\2502G1\\DOTNET\\CookieesAuthentication\\CookieesAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

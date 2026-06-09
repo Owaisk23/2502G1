@@ -1,4 +1,5 @@
 using CookieesAuthentication.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -13,7 +14,7 @@ namespace CookieesAuthentication.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
             return View();
