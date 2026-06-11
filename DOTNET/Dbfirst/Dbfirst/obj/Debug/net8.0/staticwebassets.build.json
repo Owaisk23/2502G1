@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Q1reN+wp83DjJlKbR579W8Vs6G24Lxa7BYviNEJJew=",
+  "Hash": "ZHf+nVjrKpst+UK34F8FG20JMGYwKmHvKc4rNgn4oc4=",
   "Source": "Dbfirst",
   "BasePath": "_content/Dbfirst",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\261619081653bull.jpg"
+    },
+    {
+      "Identity": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\wwwroot\\Uploads\\261711081759pixel.jpg",
+      "SourceId": "Dbfirst",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\wwwroot\\",
+      "BasePath": "_content/Dbfirst",
+      "RelativePath": "Uploads/261711081759pixel.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\261711081759pixel.jpg"
     }
   ]
 }

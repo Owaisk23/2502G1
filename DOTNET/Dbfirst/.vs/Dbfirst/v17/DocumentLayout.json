@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|z:\\desktop\\2502g1\\dotnet\\dbfirst\\dbfirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|solutionrelative:dbfirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|z:\\desktop\\2502g1\\dotnet\\dbfirst\\dbfirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|solutionrelative:dbfirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|z:\\desktop\\2502g1\\dotnet\\dbfirst\\dbfirst\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17ACC415-E739-436A-9DAA-77C69E32082A}|Dbfirst\\Dbfirst.csproj|solutionrelative:dbfirst\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Views\\Home\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Dbfirst\\Views\\Home\\AddProduct.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Views\\Home\\AddProduct.cshtml",
+              "RelativeToolTip": "Dbfirst\\Views\\Home\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T15:27:22.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dbfirst\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Dbfirst\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T15:26:19.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dbfirst\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\Dbfirst\\Dbfirst\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dbfirst\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T15:18:20.354Z",
+              "EditorCaption": ""
             }
           ]
         }

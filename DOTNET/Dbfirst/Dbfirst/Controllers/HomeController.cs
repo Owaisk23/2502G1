@@ -18,6 +18,20 @@ namespace Dbfirst.Controllers
             return View(db.Cows.ToList());
         }
 
+        [HttpPost]
+        public IActionResult Index(string searchQuery)
+        {
+            // Retrieve products from the database
+            var products = string.IsNullOrEmpty(searchQuery)
+            ? db.Cows.ToList() // If no search, return all products
+                : db.Cows
+                    .Where(p => p.CowName.Contains(searchQuery) || p.CowDesc.Contains(searchQuery))
+                    .ToList(); // Search logic
+
+            ViewData["SearchQuery"] = searchQuery; // Pass search query back to view
+            return View(products);
+        }
+
         //public IActionResult AddProduct()
         //{
         //    return View();
