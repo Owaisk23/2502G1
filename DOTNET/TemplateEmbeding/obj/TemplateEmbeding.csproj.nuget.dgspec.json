@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\TemplateEmbeding.csproj": {}
+    "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\TemplateEmbeding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\TemplateEmbeding.csproj": {
+    "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\TemplateEmbeding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\TemplateEmbeding.csproj",
+        "projectUniqueName": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\TemplateEmbeding.csproj",
         "projectName": "TemplateEmbeding",
-        "projectPath": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\TemplateEmbeding.csproj",
-        "packagesPath": "C:\\Users\\asp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\obj\\",
+        "projectPath": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\TemplateEmbeding.csproj",
+        "packagesPath": "C:\\Users\\owaisahmed\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\asp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\owaisahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -44,12 +43,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

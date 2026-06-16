@@ -1,17 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\",
+  "WorkspaceRootPath": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|c:\\users\\asp\\desktop\\templateembeding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|c:\\users\\asp\\desktop\\templateembeding\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|c:\\users\\asp\\desktop\\templateembeding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|z:\\desktop\\2502g1\\dotnet\\templateembeding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BFCC280-EE52-48B2-9722-EEB93BCEE3C5}|TemplateEmbeding.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +34,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAAAAcBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T15:12:43.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:11:25.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAANEAAAAAAAAAAAAwwMkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T15:07:21.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAAAI4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABIBAAAAAAAAAAAAAI4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-23T15:28:39.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAHkBAAAAAAAAAAAAALABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T15:27:52.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:27:52.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\Controllers\\HomeController.cs",
+              "ToolTip": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T15:27:45.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T15:27:45.687Z"
             }
           ]
         }

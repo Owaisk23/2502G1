@@ -1,344 +1,784 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TemplateEmbeding.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TemplateEmbeding.dhb4rlo8t2.bundle.scp.css"
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TemplateEmbeding.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TemplateEmbeding.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\Dentalsolutions.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\css\\style.css",
+      "PackagePath": "staticwebassets\\adminassets\\css\\style.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\adminassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\user.jpg"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\js\\main.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\main.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\adminassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\Dentalsolutions.css",
       "PackagePath": "staticwebassets\\css\\Dentalsolutions.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\pricing.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\pricing.css",
       "PackagePath": "staticwebassets\\css\\pricing.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\services.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\services.css",
       "PackagePath": "staticwebassets\\css\\services.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\style.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\team.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\team.css",
       "PackagePath": "staticwebassets\\css\\team.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\css\\whyus.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\css\\whyus.css",
       "PackagePath": "staticwebassets\\css\\whyus.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\blog1.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\blog1.jpg",
       "PackagePath": "staticwebassets\\img\\blog1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\blog2.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\blog2.jpg",
       "PackagePath": "staticwebassets\\img\\blog2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\blog3.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\blog3.jpg",
       "PackagePath": "staticwebassets\\img\\blog3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\blog4.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\blog4.jpg",
       "PackagePath": "staticwebassets\\img\\blog4.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\download (35).png",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\download (35).png",
       "PackagePath": "staticwebassets\\img\\download (35).png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\heroimg.png",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\heroimg.png",
       "PackagePath": "staticwebassets\\img\\heroimg.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\picing.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\picing.jpg",
       "PackagePath": "staticwebassets\\img\\picing.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\pro.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\pro.jpg",
       "PackagePath": "staticwebassets\\img\\pro.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\service.jpeg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\service.jpeg",
       "PackagePath": "staticwebassets\\img\\service.jpeg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\solutions1.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\solutions1.jpg",
       "PackagePath": "staticwebassets\\img\\solutions1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\team1.png",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\team1.png",
       "PackagePath": "staticwebassets\\img\\team1.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\team2.png",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\team2.png",
       "PackagePath": "staticwebassets\\img\\team2.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\team3.png",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\team3.png",
       "PackagePath": "staticwebassets\\img\\team3.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\teamappo.jpeg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\teamappo.jpeg",
       "PackagePath": "staticwebassets\\img\\teamappo.jpeg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\testimonialimg.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\testimonialimg.jpg",
       "PackagePath": "staticwebassets\\img\\testimonialimg.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\whyus.jpg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\whyus.jpg",
       "PackagePath": "staticwebassets\\img\\whyus.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\img\\whyusapp.jpeg",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\img\\whyusapp.jpeg",
       "PackagePath": "staticwebassets\\img\\whyusapp.jpeg"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\js\\main.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Desktop\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "Z:\\Desktop\\2502G1\\DOTNET\\TemplateEmbeding\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TemplateEmbeding.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TemplateEmbeding.Microsoft.AspNetCore.StaticWebAssets.props",
