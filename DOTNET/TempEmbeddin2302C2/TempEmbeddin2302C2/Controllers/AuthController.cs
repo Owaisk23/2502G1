@@ -133,24 +133,24 @@ namespace TempEmbeddin2302C2.Controllers
             
             
         }
-        //public bool SendEmail(string email, string message, string subject)
-        //{
+        public bool SendEmail(string email, string message, string subject)
+        {
 
-        //    SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
-        //    client.EnableSsl = true;
-        //    client.UseDefaultCredentials = false;
-        //    client.Credentials = new NetworkCredential("owais1566@gmail.com", "tkli fzyr xcnn yjrk");
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+            client.EnableSsl = true;
+            client.UseDefaultCredentials = false;
+            client.Credentials = new NetworkCredential("owais1566@gmail.com", "tkli fzyr xcnn yjrk");
 
-        //    MailMessage msg = new MailMessage("owais1566@gmail.com", email);
-        //    msg.Subject = subject;
-        //    msg.Body = message;
+            MailMessage msg = new MailMessage("owais1566@gmail.com", email);
+            msg.Subject = subject;
+            msg.Body = message;
 
-        //    // msg.Attachments.Add(new Attachment(PathToAttachment));
-        //    client.Send(msg);
+            // msg.Attachments.Add(new Attachment(PathToAttachment));
+            client.Send(msg);
 
 
-        //    return true;
-        //}
+            return true;
+        }
         public IActionResult Logout()
         {
             HttpContext.Session.Remove("UserID");
