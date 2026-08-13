@@ -42,8 +42,7 @@
               "RelativeToolTip": "Backend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T15:52:18.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T15:52:18.677Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Backend\\Models\\BikeContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T15:52:06.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T15:52:06.15Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "Backend\\Controllers\\MyController.cs",
               "ToolTip": "Z:\\Desktop\\2502G1\\WebAPI\\Backend\\Backend\\Controllers\\MyController.cs",
               "RelativeToolTip": "Backend\\Controllers\\MyController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwC8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T15:41:20.236Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Backend\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T15:39:46.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T15:39:46.619Z"
             }
           ]
         }
