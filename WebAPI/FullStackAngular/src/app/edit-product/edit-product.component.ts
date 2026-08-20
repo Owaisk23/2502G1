@@ -32,7 +32,7 @@ this.getProductDetails();
 
 getProductDetails(){
   this.id=this.route.snapshot.paramMap.get("id");
-  this.http.get("https://localhost:7280/api/My/"+this.id).subscribe((result:any)=>{
+  this.http.get("https://localhost:7158/api/My"+this.id).subscribe((result:any)=>{
   
   this.product.id=this.id;
   this.product.name=result.name;

@@ -22,7 +22,7 @@ constructor(private http:HttpClient){//dependency injection
 
 }
 AddProduct(product:any){
-  this.http.post("https://localhost:7280/api/My",product).subscribe((result:any)=>{
+  this.http.post("https://localhost:7158/api/My",product).subscribe((result:any)=>{
   if(result !=null){
     alert("Product added successfully.");
     location.href ="/";

@@ -1,15 +1,15 @@
-import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-products',
-  standalone: true,
-  imports: [RouterLink, HttpClientModule], // Add HttpClientModule here
-  templateUrl: './products.component.html',
-  styleUrl: './products.component.css',
+  imports: [RouterLink],
+  styleUrl: './products.css',
+  templateUrl: './products.html',
 })
-export class ProductsComponent {
+export class Products {
+
   myProducts: any[] = [];
 
   constructor(private http: HttpClient) {
@@ -18,19 +18,25 @@ export class ProductsComponent {
 
   getProduct() {
     this.http
-      .get('https://localhost:7158/api/My') // Fixed typo in URL ('hhttps' -> 'https')
+      .get('https://localhost:7158/api/My')
       .subscribe((result: any) => {
         this.myProducts = result;
-        console.log(result);
+
+        console.log('Bikes:', result);
+        console.log('myProducts:', this.myProducts);
       });
   }
 
   DeletProduct(item: any) {
+
     this.http
-      .delete('https://localhost:7280/api/My?id=' + item.id)
+      .delete('https://localhost:7158/api/My?id=' + item.id)
       .subscribe((result: any) => {
+
         alert('Successfully deleted');
+
         this.getProduct();
+
         console.log(result);
       });
   }

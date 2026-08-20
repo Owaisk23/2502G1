@@ -1,0 +1,53 @@
+<p>Products works!</p>
+
+<button class="btn btn-primary" routerLink="/addproduct">
+  Add New Product
+</button>
+
+<div class="container mt-4">
+  <div class="row">
+
+    @for (item of myProducts; track item.id) {
+
+      <div class="col-lg-4 mb-4">
+
+        <div class="card">
+          <div class="card-body">
+
+            <h5 class="card-title">
+              {{ item.name }}
+            </h5>
+
+            <p class="card-text">
+              Brand: {{ item.brand }}
+            </p>
+
+            <p class="card-text">
+              Price: ${{ item.price }}
+            </p>
+
+            <a
+              class="btn btn-primary me-2"
+              [routerLink]="['/editproduct', item.id]">
+              Edit
+            </a>
+
+            <button
+              class="btn btn-danger"
+              (click)="DeletProduct(item)">
+              Delete
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+
+    } @empty {
+
+      <p>No products found.</p>
+
+    }
+
+  </div>
+</div>
