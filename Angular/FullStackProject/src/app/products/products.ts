@@ -1,43 +1,48 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-products',
   imports: [RouterLink],
-  styleUrl: './products.css',
   templateUrl: './products.html',
+  styleUrl: './products.css'
 })
-export class Products {
+export class Products implements OnInit {
 
   myProducts: any[] = [];
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {
     this.getProduct();
   }
 
   getProduct() {
     this.http
-      .get('https://localhost:7158/api/My')
-      .subscribe((result: any) => {
-        this.myProducts = result;
-
-        console.log('Bikes:', result);
-        console.log('myProducts:', this.myProducts);
+      .get<any[]>('https://localhost:7158/api/My')
+      .subscribe({
+        next: (result) => {
+          console.log('API RESULT:', result);
+          this.myProducts = result;
+        },
+        error: (error) => {
+          console.error('API ERROR:', error);
+        }
       });
   }
 
   DeletProduct(item: any) {
-
     this.http
       .delete('https://localhost:7158/api/My?id=' + item.id)
-      .subscribe((result: any) => {
-
-        alert('Successfully deleted');
-
-        this.getProduct();
-
-        console.log(result);
+      .subscribe({
+        next: () => {
+          alert('Successfully deleted');
+          this.getProduct();
+        },
+        error: (error) => {
+          console.error('Delete error:', error);
+        }
       });
   }
 }

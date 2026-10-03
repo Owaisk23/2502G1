@@ -1,1 +1,70 @@
-<p>edit-product works!</p>
+<div class="container mt-4">
+
+  <h2>Edit Product</h2>
+
+  <form (ngSubmit)="updateProduct()">
+
+    <div class="mb-3">
+
+      <label class="form-label">
+        Product Name
+      </label>
+
+      <input
+        type="text"
+        class="form-control"
+        name="name"
+        [(ngModel)]="product.name"
+        required>
+
+    </div>
+
+
+    <div class="mb-3">
+
+      <label class="form-label">
+        Brand
+      </label>
+
+      <input
+        type="text"
+        class="form-control"
+        name="brand"
+        [(ngModel)]="product.brand"
+        required>
+
+    </div>
+
+
+    <div class="mb-3">
+
+      <label class="form-label">
+        Price
+      </label>
+
+      <input
+        type="number"
+        class="form-control"
+        name="price"
+        [(ngModel)]="product.price"
+        required>
+
+    </div>
+
+
+    <button
+      type="submit"
+      class="btn btn-primary">
+      Update Product
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-secondary ms-2"
+      (click)="router.navigate(['/'])">
+      Cancel
+    </button>
+
+  </form>
+
+</div>
