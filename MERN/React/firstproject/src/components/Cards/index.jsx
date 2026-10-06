@@ -5,14 +5,14 @@ const index = (props) => {
     <>
       <div className="card" style={{ width: "18rem" }}>
         <img
-          src={props.productImage}
+          src={props.studentImage}
           className="card-img-top"
-          alt={props.productName}
+          alt={props.studentName}
         />
         <div className="card-body">
-          <h5 className="card-title">{props.productName}</h5>
-          <p className="card-text">{props.productDescription}</p>
-          <p className="card-text">${props.productPrice}</p>
+          <h5 className="card-title">{props.studentName}</h5>
+          <p className="card-text">{props.studentAge}</p>
+          <p className="card-text">{props.studentCountry}</p>
           <a href="#" className="btn btn-primary">
             Buy Now
           </a>
