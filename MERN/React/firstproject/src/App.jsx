@@ -6,6 +6,7 @@ import Bachra from "./assets/bahra.jpg";
 import Bulb from "./components/Bulb";
 import { useState } from "react";
 import Todo from "./components/Todo";
+import ApiFetch from "./components/ApiFetch";
 
 function App() {
   const [count, setCount] = useState(77); // 0 is the initial state
@@ -646,9 +647,11 @@ function App() {
     <>
       <Navbar />
 
-      <Bulb />
+      {/* <Bulb /> */}
 
-      <Todo />
+      {/* <Todo /> */}
+
+      <ApiFetch />
 
       {/* <img src={Bachra} alt="" /> */}
 
