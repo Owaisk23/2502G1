@@ -7,6 +7,7 @@ import Bulb from "./components/Bulb";
 import { useState } from "react";
 import Todo from "./components/Todo";
 import ApiFetch from "./components/ApiFetch";
+import { Route, Routes } from "react-router";
 
 function App() {
   const [count, setCount] = useState(77); // 0 is the initial state
@@ -651,7 +652,7 @@ function App() {
 
       {/* <Todo /> */}
 
-      <ApiFetch />
+      {/* <ApiFetch /> */}
 
       {/* <img src={Bachra} alt="" /> */}
 
@@ -701,7 +702,20 @@ function App() {
         );
       })} */}
 
-      <Footer />
+      {/* <Footer /> */}
+
+      <Routes>
+        <Route path="/" element={<h1>Home Page</h1>} />
+        <Route path="/apifetch" element={<ApiFetch />} />
+
+        <Route path="/admin">
+          <Route path="dashboard" element={<h1>Admin Dashboard</h1>} />           
+          <Route path="products/" >
+            <Route path="add" element={<h1>Add Product</h1>} />    
+            <Route path="show" element={<h1>Show Product</h1>} />    
+          </Route>
+        </Route>
+      </Routes>
     </>
   );
 }
