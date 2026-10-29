@@ -1,28 +1,50 @@
 // const express = require('express');
+import { Console } from 'console';
 import express from 'express';
 import path from 'path';
+import fs from 'node:fs';
 
 const app = express()
 const port = 3000
 
-const dirname = path.resolve();
-// get api
-const products = [
-  { id: 1, name: 'Product 1', price: 10 },
-  { id: 2, name: 'Product 2', price: 20 },
-  { id: 3, name: 'Product 3', price: 30 },
-];
+app.use(express.json());
 
-app.get('/api/products', (req, res) => {
-  res.json(products);
+const dirname = path.resolve();
+const dataPath = './data.json';
+const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const products = data.products;
+
+app.get('/products', (req, res) => {
+  try {
+    console.log('Products:', products);
+
+    res.status(200).json({
+      message: 'Products fetched successfully',
+      products: products
+    });
+  } catch (error) {
+    console.error(error);
+
+    res.status(500).json({
+      message: 'Internal server error'
+    });
+  }
 });
+
+// // get api
+// const products = [
+//   { id: 1, name: 'Product 1', price: 10 },
+//   { id: 2, name: 'Product 2', price: 20 },
+//   { id: 3, name: 'Product 3', price: 30 },
+// ];
+
+// app.get('/api/products', (req, res) => {
+//   res.json(products);
+// });
 
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
-})
-app.get('/contact', (req, res) => {
-  res.send('Hello from Contact API!')
 })
 
 app.get('/image', (req, res) => {
@@ -75,6 +97,17 @@ app.get('/categories', (req, res) => {
     res.send('All Categories');
   }
 })
+
+// Request Body Parameters
+app.get('/contact', (req, res) => {
+  // const { name, age, city } = req.body;
+  const name = req.query.name;
+  const age = req.query.age;
+  const city = req.query.city;
+  
+  res.json(`Name: ${name}, Age: ${age}, City: ${city}`);
+})
+
 
 app.use('/home', express.static(dirname, {index: '/assets/index.html'}))
 
