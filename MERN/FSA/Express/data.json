@@ -1,5 +1,5 @@
 {
-    "products": [
+  "products": [
     {
       "id": 1,
       "title": "Essence Mascara Lash Princess",
@@ -1737,64 +1737,6 @@
         "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"
-    },
-    {
-      "id": 30,
-      "title": "Kiwi",
-      "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
-      "category": "groceries",
-      "price": 2.49,
-      "discountPercentage": 15.22,
-      "rating": 4.93,
-      "stock": 99,
-      "tags": [
-        "fruits"
-      ],
-      "sku": "GRO-BRD-KIW-030",
-      "weight": 5,
-      "dimensions": {
-        "width": 19.4,
-        "height": 18.67,
-        "depth": 17.13
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Emily Brown",
-          "reviewerEmail": "emily.brown@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Would not buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Jackson Morales",
-          "reviewerEmail": "jackson.morales@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Fast shipping!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nora Russell",
-          "reviewerEmail": "nora.russell@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 30,
-      "meta": {
-        "createdAt": "2025-08-27T05:46:53.584Z",
-        "updatedAt": "2026-07-21T17:09:19.864Z",
-        "barcode": "2530169917252",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp"
     }
   ]
 }
