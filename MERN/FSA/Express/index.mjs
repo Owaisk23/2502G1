@@ -1,11 +1,15 @@
 // const express = require('express');
-import { Console } from 'console';
+
 import express from 'express';
 import path from 'path';
 import fs from 'node:fs';
+import productRouter from './routes/productRoutes.mjs';
+
 
 const app = express()
 const port = 3000
+
+app.use('/products', productRouter);
 
 app.use(express.json());
 
@@ -14,100 +18,100 @@ const dataPath = './data.json';
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const products = data.products;
 
-//ALL PRODUCTS
-app.get('/products', (req, res) => {
-  try {
-    console.log('Products:', products);
+// // //ALL PRODUCTS
+// app.get('/products', (req, res) => {
+//   try {
+//     console.log('Products:', products);
 
-    res.status(200).json({
-      message: 'Products fetched successfully',
-      products: products
-    });
-  } catch (error) {
-    console.error(error);
+//     res.status(200).json({
+//       message: 'Products fetched successfully',
+//       products: products
+//     });
+//   } catch (error) {
+//     console.error(error);
 
-    res.status(500).json({
-      message: 'Internal server error'
-    });
-  }
-});
+//     res.status(500).json({
+//       message: 'Internal server error'
+//     });
+//   }
+// });
 
-//fetch by ID
-app.get('/products/:id', (req, res) => {
-  try {
-    const productId = parseInt(req.params.id);
-    const product = products.find(p => p.id === productId);
+// // //fetch by ID
+// app.get('/products/:id', (req, res) => {
+//   try {
+//     const productId = parseInt(req.params.id);
+//     const product = products.find(p => p.id === productId);
 
-    if(!product) {
-      return res.status(404).json({
-        message: 'Product not found'
-      });
-    }
+//     if(!product) {
+//       return res.status(404).json({
+//         message: 'Product not found'
+//       });
+//     }
 
-    res.status(200).json({
-      message: 'Product fetched successfully',
-      product: product
-    });
-  } catch (error) {
-    console.error(error);
+//     res.status(200).json({
+//       message: 'Product fetched successfully',
+//       product: product
+//     });
+//   } catch (error) {
+//     console.error(error);
 
-    res.status(500).json({
-      message: 'Internal server error'
-    });
-  }
-});
+//     res.status(500).json({
+//       message: 'Internal server error'
+//     });
+//   }
+// });
 
-// ADD PRODUCT
-app.post('/products', (req, res) => {
-  try {
-    const { name, price } = req.body;
-    const newProduct = {
-      id: products.length + 1,
-      name: name,
-      price: price
-    };
-    products.push(newProduct);
-    fs.writeFileSync(dataPath, JSON.stringify({ products: products }, null, 2));
+// // // ADD PRODUCT
+// app.post('/products', (req, res) => {
+//   try {
+//     const { name, price } = req.body;
+//     const newProduct = {
+//       id: products.length + 1,
+//       name: name,
+//       price: price
+//     };
+//     products.push(newProduct);
+//     fs.writeFileSync(dataPath, JSON.stringify({ products: products }, null, 2));
 
-    res.status(201).json({
-      message: 'Product created successfully',
-      product: newProduct
-    });
-  } catch (error) {
-    console.error(error);
+//     res.status(201).json({
+//       message: 'Product created successfully',
+//       product: newProduct
+//     });
+//   } catch (error) {
+//     console.error(error);
 
-    res.status(500).json({
-      message: 'Internal server error'
-    });
-  }
-});
+//     res.status(500).json({
+//       message: 'Internal server error'
+//     });
+//   }
+// });
 
-//DELETE BY ID
-app.delete('/products/:id', (req, res) => {
-  try {
-    const productId = parseInt(req.params.id);
-    const productIndex = products.findIndex(p => p.id === productId);
+// // //DELETE BY ID
+// app.delete('/products/:id', (req, res) => {
+//   try {
+//     const productId = parseInt(req.params.id);
+//     const productIndex = products.findIndex(p => p.id === productId);
 
-    if(productIndex === -1) {
-      return res.status(404).json({
-        message: 'Product not found'
-      });
-    } 
+//     if(productIndex === -1) {
+//       return res.status(404).json({
+//         message: 'Product not found'
+//       });
+//     } 
 
-    products.splice(productIndex, 1);
-    fs.writeFileSync(dataPath, JSON.stringify({ products: products }, null, 2));
+//     products.splice(productIndex, 1);
+//     fs.writeFileSync(dataPath, JSON.stringify({ products: products }, null, 2));
 
-    res.status(200).json({
-      message: 'Product deleted successfully'
-    });
-  } catch (error) {
-    console.error(error);
+//     res.status(200).json({
+//       message: 'Product deleted successfully'
+//     });
+//   } catch (error) {
+//     console.error(error);
 
-    res.status(500).json({
-      message: 'Internal server error'
-    });
-  }
-});
+//     res.status(500).json({
+//       message: 'Internal server error'
+//     });
+//   }
+// });
 
 // // get api
 // const products = [
