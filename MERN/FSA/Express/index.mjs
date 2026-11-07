@@ -4,6 +4,7 @@ import express from 'express';
 import path from 'path';
 import fs from 'node:fs';
 import productRouter from './routes/productRoutes.mjs';
+import mongoose from 'mongoose';
 
 
 const app = express()
@@ -13,10 +14,17 @@ app.use('/products', productRouter);
 
 app.use(express.json());
 
-const dirname = path.resolve();
-const dataPath = './data.json';
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-const products = data.products;
+main().catch(err => console.log(err));
+
+async function main() {
+  await mongoose.connect('mongodb+srv://owaisahmedkhan:owais123@cluster0.mbgw7ps.mongodb.net/Mart');
+  console.log('DB connected successfully');
+}
+
+// const dirname = path.resolve();
+// const dataPath = './data.json';
+// const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+// const products = data.products;
 
 // // //ALL PRODUCTS
 // app.get('/products', (req, res) => {
@@ -186,7 +194,7 @@ const products = data.products;
 //   const name = req.query.name;
 //   const age = req.query.age;
 //   const city = req.query.city;
-  
+
 //   res.json(`Name: ${name}, Age: ${age}, City: ${city}`);
 // })
 

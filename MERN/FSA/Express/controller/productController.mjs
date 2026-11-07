@@ -1,14 +1,16 @@
 import express from "express";
 import path from "path";
 import fs from "node:fs";
+import Product from "../model/productSchema.mjs";
 
-const dirname = path.resolve();
-const dataPath = './data.json';
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-const products = data.products;
+// const dirname = path.resolve();
+// const dataPath = './data.json';
+// const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+// const products = data.products;
 
-let getProducts = (req,  res) => {
+let getProducts = async (req,  res) => {
   try {
+    const products = await Product.find();
     console.log('Products:', products);
 
     res.status(200).json({
