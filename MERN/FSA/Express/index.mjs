@@ -8,11 +8,15 @@ import mongoose from 'mongoose';
 
 
 const app = express()
-const port = 3000
+
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 
 app.use('/products', productRouter);
 
-app.use(express.json());
+const port = 3000
 
 main().catch(err => console.log(err));
 
